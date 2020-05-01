@@ -19,7 +19,7 @@ import xml.etree.ElementTree as ET
 try:
     from Crypto.Cipher import AES
 except:
-    print("Could not load Crypto library, please install pycrypto package (python -m pip install pycrypto)")
+    print("Could not load Crypto library, please install pycrypto package (python -m pip install pycryptodome)")
     exit(1)
 
 if len(sys.argv) != 2:

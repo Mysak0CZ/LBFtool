@@ -5,7 +5,7 @@ Tool to extact files from LG .lbf file
 ## Usage:
 1) Clone or download this repository
 2) Install python 3 (check with "python --version")
-3) Install pycrypto (easy way: "python -m pip install pycrypto")
+3) Install pycryptodome (easy way: "python -m pip install pycryptodome")
 4) Edit Settings inside extract<i></i>.py (if needed)
 5) Run the script: "python extract<i></i>.py LGBackup_xxxxxx.lbf"
 
